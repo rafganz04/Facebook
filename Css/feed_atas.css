@@ -1,0 +1,87 @@
+.main-middle > .story {
+    background-color: white;
+    width: 100%;
+    height: 290px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px lightgray;
+}
+.main-middle > .create {
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 0px lightgray;
+}
+.main-middle > .feed {
+    background-color: white;
+    width: 100%;
+    height: 560px;
+    box-shadow: 0px 0px 5px 0px lightgray;
+}
+.story-top {
+    height: 60px;
+    border-bottom: 0.5px solid #f2f2f2;
+}
+.story-top > div {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+}
+.story-top > div:hover {
+    background-color: #f2f2f2;
+}
+.story-top > div:first-child {
+    color: blue;
+    border-bottom: 3px solid blue;
+    border-radius: 0px;
+}
+.profile > span {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.profile {
+    width: 115px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 0.5px solid #f2f2f2;
+    box-shadow: 0px 0px 5px 0px lightgray;
+}
+.story-bottom {
+    padding: 15px;
+}
+.deskripsi {
+    margin-left: 20px;
+    margin-right: auto;
+    align-items: flex-start;
+}
+.deskripsi >li > img {
+    margin-right: 5px;
+}
+.deskripsi >li {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.plus {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    top: 284px;
+}
+.profile-img {
+    background: linear-gradient(to bottom, transparent, gray), url("https://img.okezone.com/okz/500/library/images/2023/09/23/4ujsep29wm0n6y8fbp7u_13470.JPG");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
